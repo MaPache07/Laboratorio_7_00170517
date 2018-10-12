@@ -12,7 +12,6 @@ containers.forEach(element =>{
     element.style.background = "#009999";
     element.innerHTML = "<input type=”text” placeholder=’escriba su texto’>";
 });
-containers.innerHTML = "<input type='text' placeholder='Escriba su texto'>";
 
 var boton = document.getElementById("btn-click");
 boton.onclick = function(evt) {
